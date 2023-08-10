@@ -92,6 +92,7 @@
 // creating and appending elements
 let todoInput = document.querySelector(".todo-input");
 let todoButton = document.querySelector(".todo-btn");
+todoButton.style.backgroundColor = "green";
 let todoContainer = document.createElement("div");
 let todoList = document.createElement("ul");
 document.body.appendChild(todoContainer);
@@ -105,6 +106,7 @@ function addTodo(e) {
   let todo = document.createElement("div"); //createElement takes one parameter, which is tagName.the tag you wanna create.
   let newTodo = document.createElement("li");
   let delButton = document.createElement("button");
+  delButton.style.backgroundColor = "orange";
   delButton.innerText = "Delete";
   delButton.classList.add("trashButton");
   console.log(delButton);
@@ -122,3 +124,5 @@ function deleteTodo(e) {
     item.parentElement.remove();
   }
 }
+
+
