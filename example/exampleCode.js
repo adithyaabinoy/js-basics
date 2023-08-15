@@ -246,7 +246,20 @@ console.log(oddSum);
 
  */
 
+//a string ,if found any vowels change to uppercase
+//consonant put even no 
 
+// let str = "helloworld";
+// let newWord = "";
+// let vowels = ["a", "e", "i", "o", "u"];
+// for(let i=0; i< str.length; i++) {
+// if(vowels.includes(str[i])) {
+// newWord += str[i].toUpperCase();
+// } else {
+// newWord += "8"
+// }
+// }
+// console.log(newWord)
 
 
 

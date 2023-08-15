@@ -9,6 +9,15 @@
 
 //js code to find largest no
 /* let arr = [1,2,3,4,5,6,7,8];
+let maxNo =0;
+for(let i =0; i<arr.length; i++) {
+if(maxNo < arr[i]) {
+maxNo = arr[i]
+}
+}
+console.log(maxNo) */
+
+/* let arr = [1,2,3,4,5,6,7,8];
 let largestNo = 0;
 for(let i=0; i<arr.length; i++) {
 if(arr[i] >= largestNo)
@@ -17,14 +26,7 @@ largestNo += arr[i];
 }
 console.log(largestNo); */
 
-/* let arr = [1,2,3,4,5,6,7,8];
-let maxNo =0;
-for(let i =0; i<arr.length; i++) {
-if(maxNo < arr[i]) {
-maxNo = arr[i]
-}
-}
-console.log(maxNo) */
+
 
 /* 
 let arr = [1,2,3,4,5,6,7,8];
@@ -42,7 +44,6 @@ console.log(evenArr)
 
 
 /* let str = "hello";
-
 if("string" === typeof(str)) {
 console.log("it is a string")
 } else {
