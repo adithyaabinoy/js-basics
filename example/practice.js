@@ -56,6 +56,102 @@ console.log(array)
   */
  
  
+ //print 1 to 5 in triangle pattern
+
+/* let rows = 5;
+let result = "";
+for(let i=1; i<=rows; i++) {
+for(let j=1; j<=i; j++) {
+result += j;
+}
+result += "\n"
+}
+console.log(result) */
+
+
+
+//reverse manner
+/* let rows = 5;
+let result = "";
+for(let i=1; i<=rows; i++) {
+for(let j=1; j<=6-i; j++) {
+result += j
+}
+result += "\n"
+}
+console.log(result) */
+
+
+
+//star pattern print
+/* let rows = 5;
+let pattern = "";
+for (let n = 1; n <= rows; n++) {
+   for (let num = 1; num <= 5; num++) {
+      pattern += "*";
+   }
+   pattern += "\n";
+}
+console.log(pattern);
+ */
+
+
+ 
+ /* let array = [1,2,3,4,5,6,7,8];
+array.push(45);
+array.pop();
+array.unshift(8);
+array.shift();
+
+console.log(array)
+
+let array2 = [1,2,3,4];
+array2.reduce(() => {
+
+}) */
+
+ /* const test = [[[3, 2], [1], [4, 12]]];
+ console.log(test.flat(2)) */
+ /* let flattenArray = test.flat();
+ let sum = 0;
+ function oddSum(a) {
+ for(let i=0; i<a.length; i++) {
+ if(a[i] % 2 !== 0) {
+ sum += a[i]
+ }
+ }
+ }
+ oddSum(flattenArray)
+ console.log(sum) */
+
+const cartItems = [
+
+   {id: 1, qty: 3, price: 300},
+ 
+   {id: 2, qty: 2, price: 100}
+ 
+ ]
+ let price = [];
+ let totalSum = 0;
+ function getTotal(a) {
+ a.map((e,i) => {
+ price.push(e.price)
+ })
+ for(let i =0; i<price.length; i++) {
+ totalSum += price[i]
+ }
+ }
+ getTotal(cartItems)
+ console.log(price)
+ console.log(totalSum)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
