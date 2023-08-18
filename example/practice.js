@@ -188,8 +188,34 @@ function duplicate(a) {
 let result = duplicate(arr);
 console.log(result)
  */
+
+//find sum of array with using function and return sum of it .
+/* let arr = [1, 2, 3];
+let total = 0;
+const sum = (a) => {
+  for (let i = 0; i < a.length; i++) {
+    total += a[i]
+
+  }
+  return total;
+}
+let result = sum(arr)
+console.log(result);  */
  
- 
+
+//reverse a string using function 
+/* let string = "hello .. how are you ?";
+let rev = "";
+
+function reverseStr(a) {
+  for (let i = a.length - 1; i >= 0; i--) {
+    rev += a[i]
+
+  }
+  return rev;
+}
+let result = reverseStr(string);
+console.log(result) */
  
  
  
