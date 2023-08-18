@@ -172,7 +172,22 @@ for (let i = 0; i < arr.length; i++) {
 console.log(arr) */
 
 
- 
+ //find the duplicate from an array
+
+/* let arr = [1, 2, 3, 4, 1, 2, 3, 4, 5, 6, 7, 7, 6, 5, 8, 9, 10];
+let dupArr = [];
+
+function duplicate(a) {
+  for (let i = 0; i < a.length; i++) {
+    if (!dupArr.includes(a[i])) {
+      dupArr.push(arr[i])
+    }
+  }
+  return dupArr;
+}
+let result = duplicate(arr);
+console.log(result)
+ */
  
  
  
