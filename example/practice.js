@@ -46,7 +46,7 @@ console.log(i)
 
 
 
-//No array and each number should be multipied by 2
+//Number array and each number should be multipied by 2
 
 /* let array = [1,2,3,4,5,6,7];
 for(let i =0; i<array.length; i++) {
@@ -67,7 +67,6 @@ result += j;
 result += "\n"
 }
 console.log(result) */
-
 
 
 //reverse manner
@@ -102,14 +101,14 @@ array.push(45);
 array.pop();
 array.unshift(8);
 array.shift();
-
 console.log(array)
 
 let array2 = [1,2,3,4];
 array2.reduce(() => {
-
 }) */
 
+
+//finding sum of array using flat method
  /* const test = [[[3, 2], [1], [4, 12]]];
  console.log(test.flat(2)) */
  /* let flattenArray = test.flat();
@@ -124,31 +123,55 @@ array2.reduce(() => {
  oddSum(flattenArray)
  console.log(sum) */
 
-const cartItems = [
 
-   {id: 1, qty: 3, price: 300},
+//find the sum of price from cartitems
+/* const cartItems = [
+
+  {
+    id: 1,
+    qty: 3,
+    price: 300
+  },
+
+  {
+    id: 2,
+    qty: 2,
+    price: 100
+  }
+]
+let price = [];
+let totalSum = 0;
+
+function getTotal(a) {
+  a.map((e, i) => {
+    price.push(e.price)
+  })
+  for (let i = 0; i < price.length; i++) {
+    totalSum += price[i]
+  }
+}
+getTotal(cartItems)
+console.log(price)
+console.log(totalSum)
+ */
+  
  
-   {id: 2, qty: 2, price: 100}
- 
- ]
- let price = [];
- let totalSum = 0;
- function getTotal(a) {
- a.map((e,i) => {
- price.push(e.price)
- })
- for(let i =0; i<price.length; i++) {
- totalSum += price[i]
- }
- }
- getTotal(cartItems)
- console.log(price)
- console.log(totalSum)
- 
- 
- 
- 
- 
+//sort an array without using sort fn
+/* 
+let arr = [1, 4, 6, 8, 3, 2, 9];
+let b;
+for (let i = 0; i < arr.length; i++) {
+  for (let j = i + 1; j < arr.length; j++) {
+    if (arr[j] < arr[i]) {
+      b = arr[i]
+      arr[i] = arr[j]
+      arr[j] = b
+    }
+  }
+}
+console.log(arr) */
+
+
  
  
  
