@@ -226,7 +226,7 @@ for (let i =0; i< str.length; i++){
 console.log(test)
  */
  
-let arr = [1, 2, 3, 4, 5, 6];
+/*let arr = [1, 2, 3, 4, 5, 6];
 let evenSum = 0;
 let oddSum = 0;
 let result;
@@ -240,7 +240,7 @@ oddSum += arr[i];
 }
 }
 result = evenSum - oddSum;
-console.log(result);
+console.log(result);*/
 /*  console.log(evenSum);
 console.log(oddSum);
 
