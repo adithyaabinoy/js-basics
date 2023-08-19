@@ -46,20 +46,21 @@ console.log(result);
  */
 
 
-//>>>Find the Median
-/* let arr = [0, 1, 2, 4, 6, 5, 3, 8]
-
-function hllo() {
+//Find the Median
+ /* let arr = [0, 1, 2, 4, 6, 5, 3, 8]
+ 
+ function findMedian(arr) {
   let sortedArr = arr.sort((a, b) => {
     return a - b;
   })
   const mid = Math.floor(sortedArr.length / 2)
-
+ 
   console.log(mid)
   if (sortedArr.length % 2 == 0) {
     return (sortedArr[mid - 1] + sortedArr[mid]) / 2
   }
   return sortedArr[mid]
-}
-
-console.log(hllo(arr)) */
+ }
+ 
+ console.log(findMedian(arr))
+  */
