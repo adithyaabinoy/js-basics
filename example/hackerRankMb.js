@@ -27,7 +27,7 @@ console.log(result)
 
 
 
-//CamelCase (count of words)
+//>>>CamelCase (count of words)
 
 /* let s = "helloWorldHi";
 
@@ -44,3 +44,22 @@ function camelCase(s) {
 let result = camelCase(s);
 console.log(result);
  */
+
+
+//>>>Find the Median
+/* let arr = [0, 1, 2, 4, 6, 5, 3, 8]
+
+function hllo() {
+  let sortedArr = arr.sort((a, b) => {
+    return a - b;
+  })
+  const mid = Math.floor(sortedArr.length / 2)
+
+  console.log(mid)
+  if (sortedArr.length % 2 == 0) {
+    return (sortedArr[mid - 1] + sortedArr[mid]) / 2
+  }
+  return sortedArr[mid]
+}
+
+console.log(hllo(arr)) */
