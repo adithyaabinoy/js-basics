@@ -262,6 +262,38 @@ console.log(oddSum);
 // console.log(newWord)
 
 
+//sorting array
+/* let arr = [1,4,3,5,2,9];
+let sortArr; 
+for(let i=0; i<arr.length; i++) {
+for(let j=i+1; j<arr.length; j++) {
+if(arr[i] > arr[j] ) { 
+sortArr = arr[i]
+arr[i] = arr[j]
+arr[j] = sortArr
+}
+}
+}
+console.log(arr) */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
