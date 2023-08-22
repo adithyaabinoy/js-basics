@@ -1,3 +1,6 @@
+                           //REDUCE FUNCTION 
+//Reduce function takes 2 parameters, >1st parameter = accumulator(it takes initial value) >2nd parameter = iterations(it is current value) and returns the sum . 
+
 //print sum of even no's using reduce function
   
   /* let array = [1,2,3,4,5,6,7,8,9];
@@ -102,3 +105,52 @@
     }
   ];
   console.log(totalVotes(voters)); // 6 */
+
+
+ //find sum of fishing people's age
+
+/* let student = [
+
+  { name: 'David', age: 23, hobby: 'fishing' },
+
+  { name: 'Rachel', age: 25, hobby: 'cooking' },
+
+  { name: 'Rahul', age: 22, hobby: 'fishing' }
+
+];
+function sum(c) {
+let age = c.reduce((a,b) => {
+if(b.hobby == 'fishing') {
+return a + b.age;
+} else {
+return a;
+}
+},0)
+return age;
+}
+let result = sum(student)
+console.log(result)
+
+ */
+
+
+ //find total price of listed items
+
+/* const lineItems = [
+  { description: 'Eggs (Dozen)', quantity: 1, price: 3,},
+  { description: 'Cheese', quantity: 0.5, price: 5,},
+  { description: 'Butter', quantity: 2, price: 6}
+];
+
+function sum(c) {
+let price = c.reduce((a,b) => {
+return a + (b.price * b.quantity);
+},0)
+return price;
+}
+let result = sum(lineItems)
+console.log(result)
+
+ */
+
+
