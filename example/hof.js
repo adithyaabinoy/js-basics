@@ -154,3 +154,15 @@ console.log(result)
  */
 
 
+                                  // MAP FUNCTION
+
+//Map is a higher order array function that takes 2 parameters, element and index and returns new array.
+
+//add 2 to each element in array
+
+/* let arr = [1,2,3,4,5,6,7]
+let result = arr.map((e,i) => {
+return e + 2;
+})
+console.log(result)
+ */
