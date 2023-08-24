@@ -17,16 +17,6 @@ maxNo = arr[i]
 }
 console.log(maxNo) */
 
-/* let arr = [1,2,3,4,5,6,7,8];
-let largestNo = 0;
-for(let i=0; i<arr.length; i++) {
-if(arr[i] >= largestNo)
-largestNo += arr[i];
-
-}
-console.log(largestNo); */
-
-
 
 /* 
 let arr = [1,2,3,4,5,6,7,8];
