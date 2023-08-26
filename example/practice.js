@@ -172,6 +172,7 @@ for (let i = 0; i < arr.length; i++) {
 console.log(arr) */
 
 
+ 
  //find the duplicate from an array
 
 /* let arr = [1, 2, 3, 4, 1, 2, 3, 4, 5, 6, 7, 7, 6, 5, 8, 9, 10];
