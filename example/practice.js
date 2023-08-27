@@ -203,8 +203,8 @@ const sum = (a) => {
 let result = sum(arr)
 console.log(result);  */
  
+///reverse a string using function 
 
-//reverse a string using function 
 /* let string = "hello .. how are you ?";
 let rev = "";
 
