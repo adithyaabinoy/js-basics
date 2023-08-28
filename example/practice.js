@@ -208,14 +208,14 @@ console.log(result);  */
 /* let string = "hello .. how are you ?";
 let rev = "";
 
-function reverseStr(a) {
+function reversedStr(a) {
   for (let i = a.length - 1; i >= 0; i--) {
     rev += a[i]
 
   }
   return rev;
 }
-let result = reverseStr(string);
+let result = reversedStr(string);
 console.log(result) */
  
  
