@@ -72,12 +72,31 @@ console.log("no")
 } */
 
 //Write a program to iterate over an array and print each element.
-/* let arr = [1,2,3,4,5,6,7];
+ /*let arr = [1,2,3,4,5,6,7];
 let b = "";
 for(let i =0; i <arr.length; i++) {
 b += arr[i]
 }
 console.log(parseInt(b)) */
+
+
+// const user = {
+//   name: 'John Doe',
+//   email: 'john.doe@example.com',
+//   age: 25,
+//   dob: '08/02/1989',
+//   active: true
+// };
+// // iterate over the user object
+// for (const key in user) {
+//   console.log(`${key}: ${user[key]}`);
+// }
+// for (const key in user) {
+//   if (user.hasOwnProperty(key)) {
+//       console.log(`${key}: ${user[key]}`);
+//   }
+// }
+
 
 
 //Write a program to iterate over an object and print each key-value pair.
